@@ -5,7 +5,6 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/Porfile/tab";
-import { getMe, getMyPost } from "@/service/post";
 import Image from "next/image";
 
 // interface UserProfileProps {
@@ -31,9 +30,6 @@ import Image from "next/image";
 //   }[];
 // }
 const UserProfile = async () => {
-  const profileData = await getMe();
-  const myPost = await getMyPost();
-  console.log(myPost, profileData);
   const user = {
     username: "johndoe",
     displayName: "John Doe",
