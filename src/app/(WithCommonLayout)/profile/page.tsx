@@ -35,7 +35,7 @@ const UserProfile = async () => {
     displayName: "John Doe",
     bio: "Full Stack Developer. Love React and Next.js.",
     website: "https://johndoe.dev",
-    img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/avatar.png",
+    img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185",
   };
 
   const posts = [
@@ -55,13 +55,13 @@ const UserProfile = async () => {
       id: "user1",
       username: "janedoe",
       displayName: "Jane Doe",
-      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/avatar.png",
+      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185",
     },
     {
       id: "user2",
       username: "alice",
       displayName: "Alice Smith",
-      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/avatar.png",
+      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185",
     },
   ];
 
@@ -70,7 +70,7 @@ const UserProfile = async () => {
       id: "user3",
       username: "bob",
       displayName: "Bob Johnson",
-      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/avatar.png",
+      img: "https://ik.imagekit.io/nssbtemyw/tr:w-100,h-100/general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185",
     },
   ];
   return (

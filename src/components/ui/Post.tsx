@@ -55,7 +55,13 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
             type === "status" && "hidden"
           } relative w-10 h-10 rounded-full overflow-hidden`}
         >
-          <Image path="general/avatar.png" alt="" w={100} h={100} tr={true} />
+          <Image
+            path="general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185"
+            alt=""
+            w={100}
+            h={100}
+            tr={true}
+          />
         </div>
         {/* CONTENT */}
         <div className="flex-1 flex flex-col gap-2">
@@ -68,7 +74,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                 } relative w-10 h-10 rounded-full overflow-hidden`}
               >
                 <Image
-                  path="general/avatar.png"
+                  path="general/Screenshot%202025-05-26%20152414.png?updatedAt=1748272105185"
                   alt=""
                   w={100}
                   h={100}
